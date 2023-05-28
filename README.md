@@ -27,5 +27,11 @@ ami_list = ubami.list()
 ```
 
 ```bash
+# first example as a shell command
 ubami --region=eu-west-2 --version='22.04 LTS' --arch=amd64 --instance-type=hvm:ebs-ssd | jq -r '.[0].ami_id'
+```
+
+```bash
+# second example as a shell command
+ubami
 ```
