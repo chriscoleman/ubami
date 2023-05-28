@@ -25,3 +25,7 @@ ami_id = ubami.find(region='eu-west-2',
 # fetch a list of all the latest official Ubuntu AMIs
 ami_list = ubami.list()
 ```
+
+```bash
+ubami --region=eu-west-2 --version='22.04 LTS' --arch=amd64 --instance-type=hvm:ebs-ssd | jq -r '.[0].ami_id'
+```

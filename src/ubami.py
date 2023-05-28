@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-'''Query the latest Ubuntu AMIs from cloud-images.ubuntu.com.
+'''List and find the latest Ubuntu AMIs from cloud-images.ubuntu.com.
 
-For when you'd rather not hard-code an AMI ID.
+For when you'd rather not hard-code an Ubuntu AMI ID.
 
 # find the latest Jammy Jellyfish AMI for amd64 and hvm:ebs-ssd in London
 ami_id = ubami.find(region='eu-west-2',
