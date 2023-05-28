@@ -14,7 +14,7 @@ ami_id = ubami.find(region='eu-west-2',
 ami_list = ubami.list()
 '''
 
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 import json
 import re
