@@ -3,7 +3,7 @@
 A module and CLI for listing and filtering the latest Ubuntu AMIs from
 cloud-images.ubuntu.com.
 
-For when you'd rather not hard-code an Ubuntu AMI ID.
+For when you'd rather not hard-code an AMI ID or call ec2:DescribeImages.
 
 ## Installation
 
